@@ -413,4 +413,4 @@ def scan_document(image_path):
 # Run the scanner
 import os
 _dir = os.path.dirname(os.path.abspath(__file__))
-scan_document(os.path.join(_dir, "test_images", "good_img.jpg"))
+scan_document(os.path.join(_dir, "test_images", "test_image_2.jpg"))

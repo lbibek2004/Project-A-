@@ -145,7 +145,7 @@ def scan_document(image_path):
     return scanned
 
 # Usage
-result = scan_document("test_images/good_img.jpg")
+result = scan_document("test_images/1000004746.jpg")
 
 cv2.imshow("Scanned Document", result)
 cv2.waitKey(0)
